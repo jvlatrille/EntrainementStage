@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 # Chargement des données
-df = pd.read_csv('Entrainement1/parametres_procede.csv')
+df = pd.read_csv('1Entrainement/parametres_procede.csv')
 
 # Générer des anomalies fictives
 np.random.seed(1)

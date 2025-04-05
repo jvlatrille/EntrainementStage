@@ -16,7 +16,7 @@ df = pd.DataFrame(data)
 df.to_csv('parametres_procede.csv', index=False)
 print("Données exportées dans parametres_procede.csv")
 
-df = pd.read_csv('Entrainement1/parametres_procede.csv')
+df = pd.read_csv('1Entrainement/parametres_procede.csv')
 
 # Affichage
 print("Moyenne :\n", df.mean())

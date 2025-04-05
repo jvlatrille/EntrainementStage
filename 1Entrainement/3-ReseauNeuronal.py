@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Chargement et préparation des données
-df = pd.read_csv('Entrainement1/parametres_procede.csv')
+df = pd.read_csv('1Entrainement/parametres_procede.csv')
 df['Anomalie'] = np.random.choice([0, 1], size=len(df))
 
 X = df[['Puissance_Laser_W', 'Vitesse_Deplacement_mm_s', 'Debit_Poudre_g_min']].values
